@@ -8,4 +8,6 @@ find . -name "*.c" | xargs sed -i 's#while(#while\ (#g'
 
 find . -name "*.c" | xargs sed -i 's#switch(#switch\ (#g'
 
-##comment
+find . -name "*.c" | xargs sed -i 's#){#)\ {#g'
+
+
